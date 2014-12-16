@@ -11,7 +11,8 @@
   "main": "index.js",
   "files": [
     "index.js",
-    "LICENSE.txt"
+    "LICENSE.txt",
+    "skeleton.css"
   ],
   "scripts": {
     "build": "gasket run download && gasket run pack > skeleton.css"
