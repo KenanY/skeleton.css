@@ -1,6 +1,6 @@
 {
   "name": "skeleton.css",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A require()able version of Skeleton",
   "keywords": [
     "css"
