@@ -1,0 +1,43 @@
+{
+  "name": "skeleton.css",
+  "version": "0.0.0",
+  "description": "A require()able version of Skeleton",
+  "keywords": [
+    "css"
+  ],
+  "repository": "KenanY/skeleton.css",
+  "license": "MIT",
+  "author": "Kenan Yildirim <kenan@kenany.me> (http://kenany.me/)",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "LICENSE.txt"
+  ],
+  "scripts": {
+    "build": "gasket run download && gasket run pack > skeleton.css"
+  },
+  "browserify": {
+    "transform": ["brfs"]
+  },
+  "dependencies": {
+    "brfs": "^1.2.0"
+  },
+  "devDependencies": {
+    "extract-zip": "^1.0.3",
+    "gasket": "^1.4.0",
+    "nugget": "^1.3.0",
+    "packify-css": "^1.0.0"
+  },
+  "gasket": {
+    "download": [
+      "rm -rf ./Skeleton-2.0.2",
+      null,
+      "nugget https://github.com/dhg/Skeleton/releases/download/v2.0.2/Skeleton-2.0.2.zip",
+      null,
+      "extract-zip Skeleton-2.0.2.zip"
+    ],
+    "pack": [
+      "packify-css Skeleton-2.0.2/css/skeleton.css"
+    ]
+  }
+}
