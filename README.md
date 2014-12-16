@@ -8,14 +8,14 @@ A `require()`able version of [Skeleton](http://getskeleton.com/).
 var skeleton = require('skeleton.css');
 var defaultcss = require('defaultcss');
 
-defaultcss('skeleton', skeleton)
+defaultcss('skeleton', skeleton);
 ```
 
 ``` javascript
 var skeleton = require('skeleton.css');
 var insertCSS = require('insert-css');
 
-insertCSS(skeleton)
+insertCSS(skeleton);
 ```
 
 ## Installation
