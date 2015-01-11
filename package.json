@@ -8,6 +8,7 @@
   "repository": "KenanY/skeleton.css",
   "license": "MIT",
   "author": "Kenan Yildirim <kenan@kenany.me> (http://kenany.me/)",
+  "style": "skeleton.css",
   "main": "index.js",
   "files": [
     "index.js",
