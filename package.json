@@ -18,10 +18,10 @@
   "scripts": {
     "build": "npm run clean && npm run download && npm run extract && npm run pack && npm run browserify",
     "browserify": "browserify index.js -t brfs -s 'skeleton' > bundle.js",
-    "clean": "rimraf Skeleton-2.0.2",
-    "download": "nugget https://github.com/dhg/Skeleton/releases/download/v2.0.2/Skeleton-2.0.2.zip",
-    "extract": "extract-zip Skeleton-2.0.2.zip",
-    "pack": "packify-css Skeleton-2.0.2/css/skeleton.css > skeleton.css",
+    "clean": "rimraf Skeleton-2.0.4",
+    "download": "nugget https://github.com/dhg/Skeleton/releases/download/2.0.4/Skeleton-2.0.4.zip",
+    "extract": "extract-zip Skeleton-2.0.4.zip",
+    "pack": "packify-css Skeleton-2.0.4/css/skeleton.css > skeleton.css",
     "prepublish": "npm run build"
   },
   "devDependencies": {

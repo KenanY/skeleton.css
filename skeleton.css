@@ -1,14 +1,14 @@
 /*
-* Skeleton V2.0.2
+* Skeleton V2.0.4
 * Copyright 2014, Dave Gamache
 * www.getskeleton.com
 * Free to use under the MIT license.
 * http://www.opensource.org/licenses/mit-license.php
-* 12/15/2014
+* 12/29/2014
 */
 
 /* Table of contents
-–––––––––––––––––––––––––––––––––––––––––––––––––– 
+––––––––––––––––––––––––––––––––––––––––––––––––––
 - Grid
 - Base Styles
 - Typography
@@ -208,7 +208,7 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 /* NOTE
-html is set to 62.5% so that all the REM measurements throughout Skeleton 
+html is set to 62.5% so that all the REM measurements throughout Skeleton
 are based on 10px sizing. So basically 1.5rem = 15px :) */
 
 html {
@@ -317,7 +317,7 @@ a:hover {
   color: #0FA0CE;
 }
 
-/* Buttons 
+/* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .button,
@@ -388,6 +388,7 @@ input[type="button"].button-primary:focus {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 input[type="email"],
+input[type="number"],
 input[type="search"],
 input[type="text"],
 input[type="tel"],
@@ -405,9 +406,10 @@ select {
   box-sizing: border-box;
 }
 
-/* Removes awkard default styles on some inputs for iOS */
+/* Removes awkward default styles on some inputs for iOS */
 
 input[type="email"],
+input[type="number"],
 input[type="search"],
 input[type="text"],
 input[type="tel"],
@@ -426,6 +428,7 @@ textarea {
 }
 
 input[type="email"]:focus,
+input[type="number"]:focus,
 input[type="search"]:focus,
 input[type="text"]:focus,
 input[type="tel"]:focus,
@@ -545,7 +548,6 @@ fieldset {
 
 pre,
 blockquote,
-form,
 dl,
 figure,
 table,
@@ -554,10 +556,6 @@ ul,
 ol,
 form {
   margin-bottom: 2.5rem;
-}
-
-p {
-  margin-top: 0;
 }
 
 /* Utilities
@@ -608,10 +606,10 @@ hr {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 /*
-Note: The best way to structure the use of media queries is to create the queries 
+Note: The best way to structure the use of media queries is to create the queries
 near the relevant code. For example, if you wanted to change the styles for buttons
-on small devices, paste the mobile query code up in the buttons section and style it 
-there. 
+on small devices, paste the mobile query code up in the buttons section and style it
+there.
 */
 
 /* Larger than mobile */
